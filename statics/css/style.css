@@ -1,0 +1,417 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+
+/*The#Navbar*/
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background: rgb(0, 0, 0);
+    height: 60px;
+    font-weight: 500;
+    position: relative;
+}
+
+#hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%); 
+}
+
+.logo {
+    margin: auto;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #edf0f1;
+    padding-top: 1px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+nav .hover:hover {
+    border-bottom: 1px solid red;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.login {
+    padding: 9px 25px;
+    border: 2px solid rgba(1,136,169,1);
+    border-radius: 5px;
+}
+
+.login:hover {
+    background-color: rgba(1, 136, 169, 1);
+}
+
+span {
+    color: yellow;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.button {
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    border: 2px solid  rgb(52, 179, 160);
+    padding: 10px;
+    
+    margin-left: 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+.button:hover{
+    background-color: rgb(52, 179, 160);
+}
+
+.buttons {
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.aligner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.responsive {
+    text-align: center;
+    font-size: 35px;
+}
+
+/*Another Element.*/
+.container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 95vh;
+    background-image: url(../../imgs/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 20;
+    padding: 0px;
+    color: #ffffff;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
+/*Camada*/
+
+.overlay {
+    background-color: /*rgb(31, 4, 100, 0.8)*/ rgb(52, 73, 95, 0.8) /*rgb(243, 156, 18, 0.8)*/;
+    width: 100%;
+    height: 100%;
+}
+
+/*Conteudo*/
+.d-flex {
+    display: flex;
+}
+
+.img-container {
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.a-self {
+    align-self: flex-end;
+    position: absolute;
+    padding-left: 75px;
+}
+
+.content h2 {
+    width: 70vw;
+    color: rgb(82, 97, 115);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.intro {
+    text-align: center;
+}
+
+.content p {
+    width: 70vw;
+    color: black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h5 {
+    font-size: 30px;
+    color: rgb(239, 71, 74);
+}
+
+.list {
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.list-item {
+    width: 250px;
+}
+
+/*steps*/
+.steps {
+    background: rgb(241, 242, 246);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.step {
+    margin: 30px;
+    padding: 50px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 1px solid black;*/
+    border-radius: 9px;
+}
+
+.step h5 {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+
+
+/*Rodaapé*/
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    padding: 0;
+    color: #fff;
+    display: flex;
+    width: 80%;
+}
+
+.column {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    /*
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    */
+}
+
+.column a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 0;
+    width: auto;
+}
+
+.column a:hover{
+    color: rgb(128, 128, 128);
+}
+
+.social {
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+}
+
+.social:hover{
+    background-color: #fff;
+}
+
+.rights {
+    margin: 0;
+    padding: 10px;
+    border-top: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+@media(max-width: 968px){
+
+}
+
+@media(max-width: 868px){
+
+    #hamburger {
+        width: auto;
+        height: auto;
+        z-index: 3;
+    }
+
+    .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+
+    .nav {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #navbar .open {
+        clip-path: circle(1000px at 90% 0%);
+        -webkit-clip-path: circle(100px at 90% 0%);
+    }
+    
+    #navbar {
+        background: rgb(0, 0, 0);
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 2;
+        margin-left: -1650px;
+        transition: all .5s ease-out;
+    }  
+
+    .d-none {
+        display: none;
+    }
+
+    #navbar a {
+        width: 100px;
+        text-align: center;
+    }
+
+    .logo {
+        position: absolute;
+        align-self: flex-start;
+        margin-top: 17px;
+        text-align: center;
+    }
+    
+    .container{
+        background-size: cover;
+        z-index: 1;
+    }
+
+    h5 {
+        margin: 0px;
+    }
+
+    .box {
+        font-size: 25px;
+    }
+
+    .responsive {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .button {
+        margin: 10px;
+    }
+
+    .list{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .step img {
+        height: 64px;
+        width: 64px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .rights{
+        width: 100%;
+        padding: 0;
+    }
+
+    .column {
+        font-size: 20px;
+        width: 80%;
+    }
+}
