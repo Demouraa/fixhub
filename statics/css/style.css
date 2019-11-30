@@ -391,6 +391,7 @@ footer {
     .step {
         margin: 0;
         padding: 0;
+        padding-top: 50px;
         font-size: 22px;
     }
 
