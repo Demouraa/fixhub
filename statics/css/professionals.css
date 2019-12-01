@@ -86,6 +86,24 @@ span {
     padding: 20px;
 }
 
+.sec-b a {
+    color: black;
+    background-color:#34b3a0;
+    border: 2px solid #34b3a0;;
+    border-radius: 6px;
+}
+
+.sec-b a:hover {
+    color: black;
+    background-color: #6af5de;;
+}
+
+.sec-b {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+
 .aligner {
     display: flex;
     flex-direction: column;
@@ -174,6 +192,10 @@ h1 {
     margin: 10px;
 }
 
+.radius {
+    border-radius: 20px;
+}
+
 /*Rodapé*/
 footer {
     background-color: black;
@@ -219,11 +241,6 @@ footer {
     border: 1px solid rgb(255, 255, 255);
     padding: 5px;
     margin-right: 5px;
-}
-
-.social img {
-    width: 20px;
-    height: 20px;
 }
 
 .social:hover{
