@@ -5,9 +5,10 @@ body {
 }
 
 .search-box {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
+    width: 300px;
     transform: translate(-50%, -50%);
     background: #2f3640;
     height: 40px;
@@ -16,10 +17,12 @@ body {
 }
 
 section {
-    position: relative;
+    height: 90vh;
 }
 
 .search-btn {
+    position: fixed;
+    right: 5px;
     color: #e94118;
     width: 40px;
     height: 40px;
