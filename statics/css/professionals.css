@@ -17,6 +17,16 @@ nav {
     position: relative;
 }
 
+.search {
+    width: 500PX;
+    border: none;
+    padding: 7px;
+}
+
+.search-b {
+    margin: 0;
+}
+
 #hamburger {
     position: absolute;
     cursor: pointer;
@@ -95,7 +105,7 @@ span {
 
 .sec-b a:hover {
     color: black;
-    background-color: #6af5de;;
+    background-color: #34b39e;;
 }
 
 .sec-b {

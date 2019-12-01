@@ -5,9 +5,8 @@ body {
 }
 
 /*The#Navbar*/
-nav {
+.nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0;
@@ -17,6 +16,39 @@ nav {
     position: relative;
 }
 
+/*
+.search-box {
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.search-btn {
+    color: #e94118;
+    float: right;
+    width: 20px;
+    height: 25px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 25px;
+    width: 240px;
+}
+*/
 #hamburger {
     position: absolute;
     cursor: pointer;
@@ -289,10 +321,6 @@ footer {
 }
 
 @media(max-width: 968px){
-
-}
-
-@media(max-width: 868px){
 
     #hamburger {
         width: auto;
